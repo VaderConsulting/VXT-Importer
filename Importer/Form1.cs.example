@@ -1,0 +1,30 @@
+﻿using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Text;
+using System.Windows.Forms;
+
+namespace VXT_Importer
+{
+    public partial class Form1 : Form
+    {
+        public Form1()
+        {
+            InitializeComponent();
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+            Phone_dat oImporter = new Phone_dat();
+            
+            oImporter.GetOUs("C:\\Users\\Example\\Desktop\\VXT\\phone.dat");
+
+            oImporter.Import("C:\\Users\\Example\\Desktop\\VXT\\phone.dat");
+
+            // clean up
+            oImporter = null;
+        }
+    }
+}
