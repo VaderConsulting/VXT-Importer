@@ -14,6 +14,10 @@ C# VS 2008 WinForms that reads a bang-separated VXT phone.dat, lists unique divi
 
 Open `VXT Importer.sln` in Visual Studio 2008 (solution format 10.00). Copy `Importer/Form1.cs.example` to `Importer/Form1.cs` and point at your phone.dat. The original Form1 path is gitignored because it contained a local username.
 
+## Requirements
+
+- Visual Studio 2008, .NET Framework 2.0
+
 ## Attribution and provenance
 
 Working copy from Dave Robinson's OneDrive Historical Dev folder `VXT Importer`. Assembly title VXT Importer; assembly copyright 2008.
