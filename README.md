@@ -20,7 +20,7 @@ Open `VXT Importer.sln` in Visual Studio 2008 (solution format 10.00). Copy `Imp
 
 ## Attribution and provenance
 
-Working copy from Dave Robinson's OneDrive Historical Dev folder `VXT Importer`. Assembly title VXT Importer; assembly copyright 2008.
+Working copy from my Historical Dev folder `VXT Importer`. Assembly title VXT Importer; assembly copyright 2008.
 
 ## License
 
